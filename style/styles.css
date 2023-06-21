@@ -70,6 +70,7 @@
     margin: 0 auto;
     display: flex;
     flex-direction: column;
+    align-items: end;
 }
 
 .primeraSeccion div h2{
@@ -264,7 +265,7 @@ footer .updateInbox{
 footer .updateInbox input[type="text"]{
     border: 3px solid transparent;
     border-radius: 50px;
-    padding: 12px 90px 12px 10px;
+    padding: 12px 75px 12px 10px;
     margin-right: 10px;
     outline: none;
 }
@@ -278,7 +279,7 @@ footer .updateInbox button{
     color: white;
     border: none;
     border-radius: 50px;
-    padding: 12px 20px;
+    padding: 15px 23px;
 }
 
 footer .navegacionFooter{
@@ -314,7 +315,7 @@ footer .redesSociales ul li:hover{
 }
 
 footer .navegacionFooter ul li:active{
-    color: #888888;
+    color: #c0bb72;
 }
 
 footer .copyright{
@@ -335,9 +336,9 @@ footer .copyright{
     color: black;
 }
 
-@media (min-width: 850px){
+@media (min-width: 1050px){
     .navegacion{
-        padding: 80px 215px 80px 170px;
+        padding: 80px 170px 80px 170px;
         margin-bottom: 150px;
     }
 
